@@ -11,9 +11,6 @@ FUNCTIONS_DIRECTORY=$5
 # Install dependencies
 npm i
 
-# Build project
-npm run build
-
 # Export token to use with netlify's cli
 export NETLIFY_SITE_ID=$NETLIFY_SITE_ID
 export NETLIFY_AUTH_TOKEN=$NETLIFY_AUTH_TOKEN

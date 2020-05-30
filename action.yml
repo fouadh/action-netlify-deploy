@@ -21,7 +21,7 @@ inputs:
   build_directory:
     description: 'Directory where built files are stored'
     required: true
-    default: 'build'
+    default: 'app'
 
   functions_directory:
     description: 'Directory where built files are stored'
